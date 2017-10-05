@@ -17,6 +17,8 @@ class Board
     self.new(tiles)
   end
 
+  attr_reader :grid
+  
   def initialize(grid = self.empty_grid)
     @grid = grid
   end
